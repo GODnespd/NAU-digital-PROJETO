@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+  margin: auto;
+  width: 900px;
+  background-color: #00aca9;
+  .
+}
+
+#menu{
+    display: flex;
+}
+
+.menu{
+    width: 900px;
+    height: 52px;
+
+    margin: 10px;
+}
+
+
+.menu ul{
+    width: 750px;
+    height: 52px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#59d4d2;
+    border-radius: 15px;
+}
+
+
+.menu ul li{
+float:left;
+}
+
+.menu ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    background-color: #00aca9;
+    color: rgb(4, 5, 5);
+    transition: 1.3s;
+    border-radius: 15px;
+    
+}
+
+.logomarca{
+    width: 150px;
+    height: 52px; 
+    background-color: rgb(255, 255, 255);
+    margin:10px 10px 0 0;
+
+}
+.logomarca img{
+    width: 120px;
+    height: 53px;
+}
+
+#banner{
+    width: 900px;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+#banner img{
+    width: 900px;
+}
+
+
+
+#container-top{
+
+    width: 900px;
+    height: 500px;
+    background-color:#00aca9;
+}
+
+#container-tres{
+    width: 900px;
+    height: 500px;
+    background-color: rgb(42, 52, 201);
+}
+
+#container-tres{
+    width: 900px;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+}
+
+#container-tres{
+    width: 900px;
+    height: 500px;
+    background-color: rgb(242, 11, 184);
+}
+
+
+#container-tres{
+    width: 900px;
+    height: 500px;
+    background-color: #00aca9;
+}
+
+
