@@ -1,14 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 
 body{
   margin: auto;
   width: 900px;
   background-color: #00aca9;
-  .
+  
 }
 
 #menu{
@@ -24,41 +24,49 @@ body{
 
 
 .menu ul{
-    width: 750px;
+    width: 760px;
     height: 52px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color:#59d4d2;
-    border-radius: 15px;
+    border-radius: 5px;
+    display: flex   ;
+    justify-content: space-evenly;
+    font-size: 20px;
 }
 
 
 .menu ul li{
 float:left;
+
 }
 
 .menu ul li a {
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 17px 16px;
+    padding: 13px 16px;
+    margin: 1px 0;
     text-decoration: none;
+    
+   
 }
 
 .menu ul li a:hover{
     background-color: #00aca9;
     color: rgb(4, 5, 5);
-    transition: 1.3s;
-    border-radius: 15px;
+    transition: .35s;
+    border-radius: 5px;
+    cursor: pointer;
     
 }
 
 .logomarca{
     width: 150px;
     height: 52px; 
-    background-color: rgb(255, 255, 255);
+    background-color: #00aca9;
     margin:10px 10px 0 0;
 
 }
@@ -69,12 +77,14 @@ float:left;
 
 #banner{
     width: 900px;
-    height: 500px;
-    background-color: aliceblue;
+    height: 900px;
+    background-color: #00aca9;
 }
 
 #banner img{
     width: 900px;
+    height: 600px;
+    border-radius: 5px;
 }
 
 
@@ -86,29 +96,28 @@ float:left;
     background-color:#00aca9;
 }
 
-#container-tres{
+#container-dois{
     width: 900px;
     height: 500px;
-    background-color: rgb(42, 52, 201);
-}
-
-#container-tres{
-    width: 900px;
-    height: 500px;
-    background-color: rgb(0, 0, 0);
-}
-
-#container-tres{
-    width: 900px;
-    height: 500px;
-    background-color: rgb(242, 11, 184);
-}
-
-
-#container-tres{
-    width: 900px;
-    height: 500px;
+    margin: 192px 0 0 0;
     background-color: #00aca9;
+}
+
+#container-dois img{
+    width: 900px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+#container-tres{
+    width: 900px;
+    height: 600px;
+    background-color: #f80303;
+    margin: 120px 0 0 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
